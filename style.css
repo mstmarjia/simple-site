@@ -1,0 +1,144 @@
+
+
+
+
+
+
+
+body{
+    background-color: #F3F1FF;
+}
+
+
+
+.player img{
+    height: 56px;
+    width: 56px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.players{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px
+}
+.container{
+    background-color: #ffffff;
+    width: 870px;
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 21px;
+}
+.section-title{
+    color: #562EFF;
+    font-size: 24px;
+    margin-top: 3px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction:column ;
+    align-items: center;
+}
+.player-name{
+    margin-left: 16px;
+    font-size: 18px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    width: 807px;
+    margin-bottom: 21px;
+}
+.blog .thumbnail img{
+    width:185px;
+    height:170px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 10px;
+}
+.icons{
+    background-color: #562EFF;
+    display: flex;
+    width: 1000px;
+    height: 150px;
+}
+.icons img{
+    height: 120px;
+    width: 120px;
+    padding: 7px;
+}
+h1{
+    color: #ffffff;
+    font-size:40px;
+}
+.menu{
+    display: flex;
+    padding-left: 40%;
+    gap:60px;
+    color: #ffffff;
+    padding-bottom: 15px;
+    align-items: center;
+
+}
+
+.profile{
+    display: flex;
+    
+}
+.course img{
+    height: 150px;
+    width: 220px;
+    padding: 10px;
+
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 10px;
+}
+.review img{
+    height: 20px;
+    width: 20px;
+    gap: 5px;
+
+}
+.time img{
+    height: 20px;
+    width: 20px;
+}
+.course{
+    box-shadow: 5px 5px 5px  antiquewhite;
+    row-gap: 5px;
+}
+.font{
+    background-color: aqua;
+}
+.time{
+    background-color: lightpink;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    justify-content: end;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.blog{
+    display: flex;
+    
+}
+.blog-info{
+    padding: 20px;
+}
+.course h3{
+    color: red;
+}
+
